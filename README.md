@@ -1,0 +1,1 @@
+Django based Patient Management System.
