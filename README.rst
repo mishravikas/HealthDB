@@ -1,5 +1,6 @@
+[![Build Status](https://travis-ci.org/mishravikas/HealthDB.svg?branch=master)](https://travis-ci.org/mishravikas/HealthDB)
 =========
- HealthDB!
+ HealthDB
 =========
 Django based Patient Management System.
 
