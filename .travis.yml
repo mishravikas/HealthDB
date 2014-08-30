@@ -7,3 +7,11 @@ before_script:
 
 script:
   - python manage.py test
+
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#healthdb"
+    template:
+      - " %{author} %{repository} (%{commit}) : %{message} %{foo} "
+      - "Build details: %{build_url}"
