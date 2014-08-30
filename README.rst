@@ -20,11 +20,9 @@ Ubuntu 14.04 Development Build Instructions::
 	$git clone https://github.com/<your_user_name>/HealthDB.git
 
 	#Install dependencies using pip
-	$cd HealthDB
 	$pip install -r requirements.txt
 
 	#Start the development server
-	$cd HealthDB
 	$./manage.py runserver
 
 	
