@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/mishravikas/HealthDB.svg?branch=master)](https://travis-ci.org/mishravikas/HealthDB)
+.. image:: https://travis-ci.org/mishravikas/HealthDB.svg?branch=master
+    :target: https://travis-ci.org/mishravikas/HealthDB
 =========
  HealthDB
 =========
