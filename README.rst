@@ -1,5 +1,8 @@
 .. image:: https://travis-ci.org/mishravikas/HealthDB.svg?branch=master
     :target: https://travis-ci.org/mishravikas/HealthDB
+
+..image::https://badges.gitter.im/mishravikas/HealthDB.png
+	:target: https://gitter.im/mishravikas/HealthDB
 =========
  HealthDB
 =========
