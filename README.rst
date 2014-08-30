@@ -14,7 +14,7 @@ Ubuntu 14.04 Development Build Instructions::
 	$sudo apt-get update
 
 	#Install virtualenv and pip
-	$sudo apt-get install python-pip python-virtualenv
+	$sudo apt-get install python-pip python-virtualenv python-paver
 	
 	#Fork HealthDB
 	http://github.com/<your_user_name>/HealthDB
@@ -22,11 +22,13 @@ Ubuntu 14.04 Development Build Instructions::
 	#Clone your forked repo
 	$git clone https://github.com/<your_user_name>/HealthDB.git
 
-	#Install dependencies using pip
-	$pip install -r requirements.txt
+	#Install dependencies
+	$cd HealthDB
+	$paver setup
 
 	#Start the development server
-	$./manage.py runserver
+	$paver start
+
 
 	
 
