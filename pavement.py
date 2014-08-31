@@ -56,6 +56,7 @@ def setup():
 	Install dependencies
 	"""
 	sh('pip install -r requirements.txt')
+    sh('python manage.py syncdb')
 
 @task	
 def start():
