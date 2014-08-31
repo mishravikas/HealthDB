@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # HealthDB documentation build configuration file, created by
-# sphinx-quickstart on Sun Aug 31 20:56:06 2014.
+# sphinx-quickstart on Sun Aug 31 21:20:16 2014.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -29,6 +29,9 @@ import os
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
 ]
 
@@ -152,7 +155,7 @@ html_static_path = ['_static']
 #html_additional_pages = {}
 
 # If false, no module index is generated.
-#html_domain_indices = True
+# html_domain_indices = True
 
 # If false, no index is generated.
 #html_use_index = True
