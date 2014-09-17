@@ -6,7 +6,7 @@
 =========
  HealthDB
 =========
-Django based Patient Management System.
+Django based Electronic Medical Record (EMR) and Patient Management System.
 
 Ubuntu 14.04 Development Build Instructions::
 	
